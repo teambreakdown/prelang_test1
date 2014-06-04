@@ -1,4 +1,5 @@
 ActiveAdmin.register Profile do
+  permit_params :hometown, :current_location, :dob, :about
 
   
   # See permitted parameters documentation:
